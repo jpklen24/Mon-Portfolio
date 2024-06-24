@@ -1,0 +1,120 @@
+*{
+    margin: 0 ;
+}
+body{
+    font-family: Lora ;
+    background-color: #1f2039;
+}
+header,footer{
+    display: flex;
+    flex-direction: row;
+    background-color:azure;
+    padding: 30px;
+    color: #1f2039, 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+    left: 790px;
+}
+nav a{
+    margin-left: 30px;
+    text-decoration: none;
+}
+main{
+    color :azure;
+    text-align: center;
+}
+section{
+margin: 80px;
+padding: 40px;
+}
+.description{
+    display: flex;
+    text-align:left;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+}
+.profilpersonnel{
+    margin: 50px;
+    padding: 50px;
+    width:600px;
+}
+#profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+h2{
+    margin-bottom: 30px;
+}
+#competence{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#competence ul{
+    border-right:  solid azure;
+    border-bottom:  solid azure;
+    padding: 50px;
+    margin: 80px;
+}
+.tl{
+    display: flex;
+    flex-direction: row;
+}
+#Parcours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#Parcours ul{
+    border-right:  solid azure;
+    border-bottom:  solid azure;
+    padding: 50px;
+    margin: 80px;
+} 
+.nbrtof{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px;
+}
+.nbrtofs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+.toftout{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 300px 300px ;
+    gap:50px;
+    margin-bottom: 40px;
+} 
+html{
+    scroll-behavior: smooth;
+}
+.photo{
+    width: 600px; 
+    height: auto; 
+}
+.description h1{
+    margin-bottom:40px ;
+}
+.tof{
+    width: 300px;
+    height: 1fr;
+}
