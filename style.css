@@ -18,11 +18,15 @@ nav{
     justify-content: space-between;
     position: absolute;
     top: 70px;
-    left: 790px;
+    left:710px;
+}
+a{
+    text-decoration: none;
 }
 nav a{
     margin-left: 30px;
     text-decoration: none;
+    color:black;
 }
 main{
     color :azure;
@@ -54,6 +58,11 @@ padding: 40px;
 }
 h2{
     margin-bottom: 30px;
+    color:gold;
+}
+h3{
+    margin: 30px;
+    color:silver;
 }
 #competence{
     display: flex;
@@ -62,11 +71,20 @@ h2{
     flex-direction: column;
 }
 #competence ul{
-    border-right:  solid azure;
-    border-bottom:  solid azure;
+    border-right:  solid silver;
+    border-bottom:  solid silver;
     padding: 50px;
     margin: 80px;
 }
+ul li:before {
+    content: '✓'; 
+   }
+li{
+    text-align: left;
+}
+ul {
+    list-style: none;
+  }
 .tl{
     display: flex;
     flex-direction: row;
@@ -78,8 +96,8 @@ h2{
     flex-direction: column;
 }
 #Parcours ul{
-    border-right:  solid azure;
-    border-bottom:  solid azure;
+    border-right:  solid silver;
+    border-bottom:  solid silver;
     padding: 50px;
     margin: 80px;
 } 
@@ -89,6 +107,9 @@ h2{
     justify-content: center;
     flex-direction: column;
     margin: 60px;
+}
+.nbrtof a{
+    color: azure;
 }
 .nbrtofs{
     display: flex;
@@ -100,7 +121,7 @@ h2{
 .toftout{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 300px 300px ;
+    grid-template-rows: 400px 400px ;
     gap:50px;
     margin-bottom: 40px;
 } 
@@ -115,6 +136,25 @@ html{
     margin-bottom:40px ;
 }
 .tof{
-    width: 300px;
+    width: 400px;
     height: 1fr;
+    margin-bottom: 30px;
+    border:5px silver solid ;
+}
+.lienEntreprise{
+    color:azure;
+    text-decoration: none;
+}
+.lienEntreprise:hover{
+    text-decoration:underline;
+}
+i{
+    margin-right: 15px;
+}
+.tofprojet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
 }

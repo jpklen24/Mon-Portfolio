@@ -4,10 +4,11 @@
         <meta charset="utf-8">
         <title>PORTFOLIO</title>
         <link href="style.css" rel="stylesheet">
-        <scrip src="script.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -17,6 +18,7 @@
                 <a href="#competence" class="btn">Competence</a>
                 <a href="#Parcours" class="btn">Parcours</a> 
                 <a href="#formation" class="btn">Formation</a>
+                <a href="#projet" claa="btn">Projet</a>
             </nav>
         </header>
 
@@ -31,31 +33,31 @@
                        ambition et de mon engagement profond envers le domaine de l'ingénierie 
                        logicielle. </p>
                 </div>
-                <div class="photopersonnel">
+                <div class="photopersonnel" data-aos="zoom-in-up">
                     <img src="img/element-1.png" alt="photoprofil" class="photo">
                 </div>  
             </section>
 
             <section id="competence">
-                <h2>Competence</h2>
-                <h3>*Informatique</h3>
+                <h2><i class="fa-solid fa-hands-holding-circle"></i>Competence</h2>
+                <h3><i class="fa-solid fa-laptop-code"></i>Programmation</h3>
                 <div class="toftout">
-                    <div class="nbrtofs">
+                    <div class="nbrtofs" data-aos="zoom-in-up">
                         <img src="img/HTML5_logo_and_wordmark.svg.png" atl="html" >
                     </div>
-                    <div class="nbrtofs">
+                    <div class="nbrtofs" data-aos="zoom-in-up">
                         <img src="img/CSS3_logo_and_wordmark.svg.png" atl="css">
                     </div>
-                    <div class="nbrtofs">
+                    <div class="nbrtofs" data-aos="zoom-in-up">
                         <img src="img/pngegg (9).png" atl="JS">
                     </div>
-                    <div class="nbrtofs">
+                    <div class="nbrtofs" data-aos="zoom-in-up">
                         <img src="img/pngegg (6).png" atl="C">
                     </div>
                 </div>
                 <div class="tl">
                     <div class="technique">
-                        <h3>*Technique</h3>
+                        <h3><i class="fa-solid fa-laptop-file"></i>Technique</h3>
                         <ul>
                             <li>Word</li>
                             <li>Excel</li>
@@ -63,7 +65,7 @@
                         </ul>
                     </div>
                     <div class="lingustique">
-                        <h3>*Lingustique</h3>
+                        <h3><i class="fa-solid fa-language"></i>Lingustique</h3>
                         <ul>
                             <li>Français</li>
                             <li>Anglais</li>
@@ -73,7 +75,7 @@
                 </div>
             </section>
             <section id="Parcours">
-                <h2>Parcours</h2>
+                <h2><i class="fa-solid fa-road-circle-check"></i>Parcours</h2>
                 <ul>
                     <li>Cycle Preparatoire Pere Aupiais</li>
                     <li>BAC Serie C 2023: College Catholique Notre Dame de Porto-Novo</li>
@@ -83,32 +85,57 @@
             </section>
 
             <section id="formation">
-                <h2>Formation</h2>
-                <p>Stage académique en informatique au 10 20 technologie</p>
+                <h2><i class="fa-solid fa-user-graduate"></i>Formation</h2>
+                <p>Stage académique en informatique au <a href="https://1020technologiesbj.vercel.app/" target="_blank" class="lienEntreprise">10-20 Technologies SARL</a></p>
                 <div class="toftout">
-                    <div class="nbrtof">
+                    <div class="nbrtof" data-aos="zoom-in-up">
                         <img src="img/C.png" alt="photo1" class="tof">
                         <p>Comprendre le web</p>
                     </div>
-                    <div class="nbrtof" >
+                    <div class="nbrtof" data-aos="zoom-in-up">
                         <img src="img/hc.png" alt="photo2" class="tof">
                         <p>Creer votre site web avec HTLM5 et CSS3</p>
                     </div>
-                    <div class="nbrtof" >
+                    <div class="nbrtof" data-aos="zoom-in-up" >
                         <img src="img/js.png" alt="photo3" class="tof">
                         <p>Apprenez a programmer en Java Script</p>
                     </div>
-                    <div class="nbrtof">
+                    <div class="nbrtof" data-aos="zoom-in-up">
                         <img src="img/git.png" alt="photo4" class="tof">
                         <p>Gerer du code avec Git et Github</p>
                     </div>
                 </div>
             </section>
-
+            <section id="projet">
+                <h2><i class="fa-solid fa-code"></i>Projet</h2>
+                <div class="tofprojet">
+                    <div class="nbrtof" data-aos="zoom-in-up">
+                        <a href=" https://jpklen24.github.io/portfolio-robbie-lens/" rel="portfolio-robbie-lens" target="_blank">
+                            <img src="img/portfolio.png" alt="portfolio-robbie-lens" class="tof">
+                            <p>Portfolio de Robbie Lens</p>
+                        </a>
+                    </div>
+                    <div class="nbrtof" data-aos="zoom-in-up">
+                        <a href=" https://jpklen24.github.io/Azertype/" rel="azertype" target="_blank">
+                            <img src="img/azertype.png" alt="azertype" class="tof">
+                            <p>Azertype</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
         </main>
 
         <footer>
             <p>&copy; 2024 Mon Portfolio</p>
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     </body>
+
+    <script>
+        AOS.init();
+    </script>
+    
 </html>
