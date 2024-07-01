@@ -101,14 +101,10 @@ ul {
     padding: 50px;
     margin: 80px;
 } 
-.nbrtof{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 60px;
+#formation p{
+    margin-bottom: 40px;
 }
-.nbrtof a{
+.nbrtofs a{
     color: azure;
 }
 .nbrtofs{
